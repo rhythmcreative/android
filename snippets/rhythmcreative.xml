@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="rhythmcreative"
+          fetch="https://github.com/rhythmcreative"
+          revision="main" />
+
+  <!-- RhythmCreative Info App -->
+  <project path="packages/apps/Info" name="rhythmcreative/Info" remote="rhythmcreative" />
+
+  <!-- Hardened Malloc Allocator -->
+  <project path="external/hardened_malloc" name="GrapheneOS/hardened_malloc" remote="github" revision="16" />
+
+  <!-- RhythmCreative LineageOS Build Scripts & Security Patches -->
+  <project path="lineage-build-scripts" name="rhythmcreative/lineage-build-scripts" remote="rhythmcreative" />
+</manifest>
